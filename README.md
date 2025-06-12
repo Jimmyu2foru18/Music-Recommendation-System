@@ -1,7 +1,7 @@
 # Music Recommendation System
 
 ## Overview
-A sophisticated music recommendation system built with Julia, leveraging machine learning techniques to provide personalized song recommendations based on user listening history and song characteristics.
+A sophisticated music recommendation system built with Julia, machine learning techniques to provide personalized song recommendations based on user listening history and song characteristics.
 
 ## Features
 - Collaborative filtering recommendation engine
@@ -13,23 +13,23 @@ A sophisticated music recommendation system built with Julia, leveraging machine
 ## Project Structure
 ```
 ├── data/
-│   ├── raw/              # Original dataset files
-│   ├── processed/        # Cleaned and preprocessed data
-│   └── models/           # Trained model files
+│   ├── raw/            
+│   ├── processed/       
+│   └── models/          
 ├── src/
-│   ├── data/            # Data processing scripts
+│   ├── data/       
 │   │   ├── loader.jl
 │   │   └── preprocessor.jl
-│   ├── models/          # Model implementation
+│   ├── models/      
 │   │   ├── collaborative.jl
 │   │   └── content_based.jl
-│   ├── visualization/   # Visualization scripts
+│   ├── visualization/  
 │   │   └── plots.jl
-│   └── utils/           # Utility functions
+│   └── utils/      
 │       └── metrics.jl
-├── notebooks/          # Jupyter notebooks for analysis
-├── tests/              # Test files
-└── results/            # Output visualizations and metrics
+├── notebooks/         
+├── tests/          
+└── results/      
 ```
 
 ## Prerequisites
@@ -43,7 +43,7 @@ A sophisticated music recommendation system built with Julia, leveraging machine
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/music-recommendation-system.git
+git clone https://github.com/jimmyu2foru18/music-recommendation-system.git
 cd music-recommendation-system
 ```
 
@@ -83,18 +83,4 @@ plot_recommendations(recommendations)
 - Song Similarity Matrix
 - Recommendation Performance Metrics
 - Feature Importance Analysis
-
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-- Million Song Dataset
-- Julia Programming Community
-- Contributors and maintainers
+---
